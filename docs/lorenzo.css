@@ -1,0 +1,42 @@
+body,button {
+  background: #eee;
+  font-size: x-large;
+}
+
+.die {
+  display: inline-block;
+  border: 2px solid black;
+  margin: 1ex;
+  padding: .5ex;
+  min-width: 1em;
+  min-height: 1em;
+}
+
+.blue-die {
+  background-color: blue;
+  color: white;
+}
+
+.green-die {
+  background-color: green;
+  color: white;
+}
+
+.yellow-die {
+  background-color: yellow;
+  color: black;
+}
+
+.purple-die {
+  background-color: purple;
+  color: white;
+}
+
+.sum {
+  display: inline-block;
+  margin: 1ex;
+  padding: .5ex;
+  color: #444;
+}
+
+#sum.alert { background-color: red; }
